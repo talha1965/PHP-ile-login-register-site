@@ -1,0 +1,78 @@
+/* ==== REGISTER FORM TASARIMI ====  */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#181818;
+    height:100vh;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+}
+
+.register-container{
+    background:#1e1e1e;
+    width:350px;
+    padding:35px;
+    border-radius:8px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.6);
+}
+
+.register-container h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#f07c00;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"]{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    background:#2c2c2c;
+    margin-bottom:15px;
+    color:#fff;
+}
+
+.register-container input[type="submit"]{
+    width:100%;
+    padding:12px;
+    background:#f07c00;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+    color:#fff;
+}
+
+.register-container input[type="submit"]:hover{
+    background:#ff9a3d;
+}
+
+.register-container p{
+    text-align:center;
+    margin-top:15px;
+    font-size:14px;
+}
+
+.register-container p a{
+    color:#f07c00;
+    text-decoration:none;
+}
+
+.register-container .status{
+    color:#ff7070;
+    margin-bottom:10px;
+    text-align:center;
+    font-size:14px;
+}
+.register-container .status{
+    color:#ff6060;
+    margin-bottom:10px;
+    text-align:center;
+    font-size:14px;
+}
+
